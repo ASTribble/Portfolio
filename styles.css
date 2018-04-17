@@ -74,6 +74,7 @@ a {
   .link {
     color: #EBAC5C;
   }
+}
 
 a:hover, a:focus {
   color: #EBAC5C;
@@ -350,7 +351,7 @@ a[name='resume']:hover {
 /* ///////MEDIA QUERY FOR MID-SIZE SCREEN/////// */
 
 @media (min-width: 640px){
-  h4{
+  h4 {
     align-self: flex-start;
     font-size: 2em;
   }
