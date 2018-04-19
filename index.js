@@ -4,39 +4,38 @@
 
 
 
-function cubbieListener(){
+function cubbieListener() {
   $('.cubbie').click(function (event) {
     event.stopPropagation();
-    if($('.found')){
+    if ($('.found')) {
       $('.found').removeClass('found');
-    }  
+    }
     $(this).next('div').toggleClass('found');
   });
 }
 
 
 
-function closeModal(){
+function closeModal() {
 
 
   $('html').click(function () {
-    if(!$(this).closest('.found').length){
+    if (!$(this).closest('.found').length) {
       $('.found').removeClass('found');
     }
   });
 
-    
-  $('.content').click(function(e) {
+
+  $('.content').click(function (e) {
     e.stopPropagation();
   });
 
 
-  $('.close').click(function(){
+  $('.close').click(function () {
     $(this).closest('.found').removeClass('found');
   });
 
 }
-
 
 
 
