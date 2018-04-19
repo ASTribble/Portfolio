@@ -129,7 +129,8 @@ a:hover, a:focus {
   left: 5%;
   text-align: left;
   width: 90%;
-  border: solid 1.2em #ECF8F1;
+  /* border: solid 1.2em #ECF8F1; */
+  /* border: solid 1px #ECF8F1; */
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
   box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
   z-index: 20;
