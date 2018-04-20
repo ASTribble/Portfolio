@@ -133,6 +133,7 @@ a:hover, a:focus {
   /* border: solid 1px #ECF8F1; */
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
   box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
+  border-radius: 2px;
   z-index: 20;
 }
 
@@ -147,6 +148,13 @@ a:hover, a:focus {
 
 .close:hover{
   color:#EBAC5C;
+}
+
+.my-photo {
+  width: 200px;
+  box-sizing: content-box;
+  border: solid 16px #ECF8F1;
+  border-radius: 2px; 
 }
 
 .projects {
@@ -343,6 +351,17 @@ a[name='resume']:hover {
   border-bottom-color:  #EBAC5C;
 } 
 
+/* ================= GENERICS ================== */
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* ///////MEDIA QUERY FOR MID-SIZE SCREEN/////// */
