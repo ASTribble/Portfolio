@@ -129,7 +129,8 @@ a:hover, a:focus {
   left: 5%;
   text-align: left;
   width: 90%;
-  border: solid 1.2em #ECF8F1;
+  /* border: solid 1.2em #ECF8F1; */
+  /* border: solid 1px #ECF8F1; */
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
   box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
   z-index: 20;
@@ -373,14 +374,13 @@ a[name='resume']:hover {
   }
 
   page {
-
-      margin-left: auto;
-      margin-right: auto;
-      background-image: 
-        radial-gradient(circle farthest-corner at bottom right,#111132 50%, #00B7C2  0, transparent),
-        radial-gradient(circle farthest-corner at top left 15em,#111132 45em, #00B7C2  0%);
-      max-width: 1500px; 
- }
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: 
+      radial-gradient(circle farthest-corner at right 141%,#111138 58%, #00B7C2 0, transparent), 
+      radial-gradient(circle farthest-corner at left -31%,#111132 53%, #00B7C2 0);
+  }
 
   .shelf {
     width: 640px;
@@ -429,6 +429,23 @@ a[name='resume']:hover {
 
 }
 
+@media (min-width: 860px){
+
+  page{
+    background-image: 
+      radial-gradient(circle farthest-corner at right 163%,#111132 61%, #00B7C2  0, transparent),                    
+      radial-gradient(circle farthest-corner at left -48% ,#111132 59%, #00B7C4  0%)
+  }
+
+}
+
+@media (min-width: 1000px){
+  page {
+    background-image: 
+      radial-gradient(circle farthest-corner at right 175%,#111138 64%, #00B7C2 0, transparent),        
+      radial-gradient(circle farthest-corner at left -70%, #111132 61%, #00B7C2 0%)
+  }
+}
  /* ///AND EVEN BIGGER//////////*/
  @media (min-width: 1160px){
  
@@ -443,14 +460,25 @@ a[name='resume']:hover {
 
 } 
 
+@media (min-width: 1250px){
+  page {
+    background-image:
+      radial-gradient(circle farthest-corner at right 201%,#111138 68%, #00B7C2 0, transparent),             
+      radial-gradient(circle farthest-corner at left -125%, #111132 68%, #00B7C2 0%)
+  }
+}
+
 /* //// AND THE BIGGEST OF ALL ////////// */
 @media (min-width: 1500px){
 
   page {
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
     margin-top: 3em;
     margin-bottom: 4em;
     border: 30px solid #ECF8F1;
+    /* background-image:
+      radial-gradient(circle farthest-corner at right 238%,#111138 70%, #00B7C2 0, transparent),                    
+      radial-gradient(circle farthest-corner at left -140%, #111132 70.5%, #00B7C2 0%) */
   }
 
   .found {

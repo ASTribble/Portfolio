@@ -1,0 +1,23 @@
+Centsible is an investment teaching application.
+It was built by five people, in three weeks, with an agile methodology. 
+
+I was the project's design-lead, so after the initial components were in place 
+most of my time was spent on styling.
+
+I also had a large role in the planning of the project - I created the team wireframes and 
+worked with our project manager to break them into actionable stories in Clubhouse.
+
+We used React and Redux on the front end, Node.js for our server, and a Mongo database. 
+We used TravisCI for continuous integration, and Mocha, Chai, Enzyme, and Jest for testing.
+Workflow was managed with Clubhouse.io and Github, and I built the wireframes on moqups.com.
+
+github repos: 
+    client: https://github.com/thinkful-ei17/teamThree-client
+    server: https://github.com/JohnLCastillo/TeamThree-server
+
+live: 
+    client: centsible.netlify.com
+    server: https://teamthree-server.herokuapp.com 
+
+
+wireframes: https://app.moqups.com/a.scott.tribble@gmail.com/M3nZDdkS6s/view/page/ad64222d5    
