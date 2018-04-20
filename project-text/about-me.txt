@@ -1,0 +1,19 @@
+I am a life-long builder of things living in Portland, Oregon.
+
+I've built props for theaters, instruments for musicians, sets for puppets, 
+and a pizza oven in my backyard.
+
+My love of building in the real world led me to wonder about the virtual world.
+
+It turns out I love that, too!
+
+Currently, I work with a Javascript full-stack, and I have a preference for React on the front-end.
+
+One thing I've learned over the years is that projects go more smoothly when I use 
+the right tool... so I'm always excited to expand my toolchest.  Also,
+I never know when I'll need a hand or want to talk through a problem with another person, 
+so I'm always ready to help others when they ask. 
+
+Hopefully, I'll get to build something with you!
+
+

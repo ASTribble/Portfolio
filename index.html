@@ -32,35 +32,33 @@
         <div class='content hidden'>
           <button class='close' aria-label="Close 'About Me' modal">&times;</button>
           <!-- <h3>About Me:</h3> -->
-            <div className='flex-column'>
-              <img src='./project-shots/Me2.jpg' alt='Photo of me.' class='my-photo width-one-third'/>
-              <section className='words flex-column width-two-thirds'>
+            <div class='about-me'>
+              <img src='./project-shots/Me2.jpg' alt='Photo of me.' class='my-photo'/>
+              <section class='words'>
                 <p>
-                  I love to build useful objects.
+                  I am a life-long builder of things living in Portland, Oregon.
                 </p>
                 <p>
-                  I have been doing it my whole life.
+                  I've built props for theaters, instruments for musicians, sets for puppets, 
+                  and a pizza oven in my backyard.
                 </p>
                 <p>
-                  I love to learn new ways to build anything useful.
-                </p>
-                <p>I've built props for theaters, sets for movies, shelves for books, and violins for musicians.</p> 
-                <p>I've built a pizza oven in my backyard and a shelter for it when it started to rain. </p>
-                <p>I've baked pies (they are very useful - ask your belly), and sewn costumes.</p>
-                <p>
-                  My love of making things has brought me to web development.
+                  My love of building in the real world led me to wonder about the virtual world.
                 </p>
                 <p>
-                  I see it as a new way to make useful things for real people.
+                  It turns out I love that, too!
+                </p>
+                <p> 
+                  Currently, I work with a Javascript full-stack, and I have a preference for React on the front-end.
                 </p>
                 <p>
-                  I would love to build something for you.
+                  However, one thing I've learned over the years is that projects go more smoothly when I use 
+                  the right tool... so I'm always excited to expand my toolchest.  Also,
+                  I never know when I'll need a hand or want to talk through a problem with another person, 
+                  so I'm always ready to help others when they ask. 
                 </p>
                 <p>
-                  Something useful.
-                </p>
-                <p>
-                  That works.
+                  Hopefully, I'll get to build something with you!
                 </p>
               </section>
             </div>  
@@ -79,9 +77,9 @@
         <div class='projects'>
           <!-- <h4>Centsible</h4> -->
         
-          <!-- <a href='https://centsible.netlify.com' class='img-link'> -->
-            <img src='./project-shots/Centsible.png' alt='Landing Page'>
-          <!-- </a> -->
+      
+          <img src='./project-shots/Centsible.png' alt='Landing Page'>
+       
           <p><span class='project-title'>Centsible</span> is an investment teaching application. It was built by five people, 
             in three weeks, with an agile methodology. 
           </p>
@@ -320,28 +318,30 @@
         
         <div class='content hidden'>
           <button class='close' aria-label="Close project modal">&times;</button>
-          <h3>Contact Me:</h3>
+          <div class='contact-div'>
+            <!-- <h3>Contact Me:</h3> -->
 
-          <p>I would love to build a useful thing for you!</p>
-          <p>Let's chat about it!</p>
+            <p>I would love to build something with you!</p>
+            <p>Let's chat about it:</p>
 
-          <a href="mailto:a.scott.tribble@gmail.com?subject=I saw your portfolio..." class='contact'>
-            <img src='./tech-icons/email.png' alt='mail icon' class='icon' id='email-icon'>
-            <p>email</p>
-          </a>
+            <a href="mailto:a.scott.tribble@gmail.com?subject=I saw your portfolio..." class='contact'>
+              <img src='./tech-icons/email.png' alt='mail icon' class='icon' id='email-icon'>
+              <p>email</p>
+            </a>
 
-          <a href="https://www.linkedin.com/in/a-scott-tribble/" class='contact'>
-            <img src='./tech-icons/LinkedIn-big.png' alt='linkedIn icon' class='icon' id='linkedIn-icon'>
-            <p>linkedIn</p>
-          </a> 
-                      
-          
-            <img src='./tech-icons/phone-square.png' alt='phone icon' class='icon' id='phone-icon'>
-            <div class='phone'>
-              <span>talk or text:</span>
-              <a href="mailto:a.scott.tribble@gmail.com?subject=I saw your portfolio and I'd like to talk." class='contact'>
-                email for phone number
-              </a>
+            <a href="https://www.linkedin.com/in/a-scott-tribble/" class='contact'>
+              <img src='./tech-icons/LinkedIn-big.png' alt='linkedIn icon' class='icon' id='linkedIn-icon'>
+              <p>linkedIn</p>
+            </a> 
+                        
+            
+              <img src='./tech-icons/phone-square.png' alt='phone icon' class='icon' id='phone-icon'>
+              <div class='phone'>
+                <span>talk or text:</span>
+                <a href="mailto:a.scott.tribble@gmail.com?subject=I saw your portfolio and I'd like to talk." class='contact'>
+                  email for phone number
+                </a>
+            </div>
           </div>
         </div>
 
@@ -353,16 +353,18 @@
         </div>
         
         <div class='content hidden'>
-          <button class='close' aria-label="Close project modal">&times;</button>
-          <h3>Resume</h3>
-          <p class='resume-link'>
-            You can view an html version of my resume
-            <a class='link' href='https://astribble.github.io/resume/'>here.</a>
-          </p>
-          <p class='resume-link'>
-            You can view a pdf version of my resume
-          <a class='link' href='./resume.pdf'>here.</a>
-          </p>
+            <button class='close' aria-label="Close project modal">&times;</button>
+            <div class='resume-div'>
+              <!-- <h3>Resume</h3> -->
+              <p class='resume-link'>
+                You can view an html version of my resume
+                <a class='link' href='https://astribble.github.io/resume/'>here.</a>
+              </p>
+              <p class='resume-link'>
+                You can view a pdf version of my resume
+              <a class='link' href='./resume.pdf'>here.</a>
+              </p>
+            </div>
         </div>
 
       </container>
