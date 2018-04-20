@@ -222,7 +222,6 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-items: baseline;
- 
   margin-left: 1em;  
 }
 
@@ -366,6 +365,7 @@ a[name='resume']:hover {
     width: 90%;
     left: 5%;
     top: 13em;
+    z-index: 20;
   }
 
   .contact-div, .resume-div {
@@ -389,7 +389,7 @@ a[name='resume']:hover {
 @media (min-width: 768px){
 
   html {
-  background-color: #111132;
+    background-color: #111132;
   }
 
   page {
