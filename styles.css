@@ -374,14 +374,12 @@ a[name='resume']:hover {
   }
 
   page {
-
       margin-left: auto;
       margin-right: auto;
       background-image: 
-        radial-gradient(circle farthest-corner at bottom right,#111132 50%, #00B7C2  0, transparent),
-        radial-gradient(circle farthest-corner at top left 15em,#111132 45em, #00B7C2  0%);
-      max-width: 1500px; 
- }
+        radial-gradient(circle farthest-corner at right 141%,#111138 58%, #00B7C2 0, transparent), 
+        radial-gradient(circle farthest-corner at left -31%,#111132 53%, #00B7C2 0);
+  }
 
   .shelf {
     width: 640px;
@@ -430,6 +428,23 @@ a[name='resume']:hover {
 
 }
 
+@media (min-width: 860px){
+
+  page{
+    background-image: 
+      radial-gradient(circle farthest-corner at right 163%,#111132 61%, #00B7C2  0, transparent),                    
+      radial-gradient(circle farthest-corner at left -48% ,#111132 59%, #00B7C4  0%)
+  }
+
+}
+
+@media (min-width: 1045px){
+  page {
+    background-image: 
+    radial-gradient(circle farthest-corner at right 175%,#111138 64%, #00B7C2 0, transparent),        
+    radial-gradient(circle farthest-corner at left -70%, #111132 61%, #00B7C2 0%)
+  }
+}
  /* ///AND EVEN BIGGER//////////*/
  @media (min-width: 1160px){
  
@@ -448,9 +463,10 @@ a[name='resume']:hover {
 @media (min-width: 1500px){
 
   page {
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
     margin-top: 3em;
     margin-bottom: 4em;
+    width: 1500px;
     border: 30px solid #ECF8F1;
   }
 
