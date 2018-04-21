@@ -124,7 +124,7 @@ a:hover, a:focus {
   position: absolute;
   top: 11em;
   left: 1%;
-  z-index: 20;
+  /* z-index: 20; */
  
   box-shadow: .9em 1.2em 1em rgba(28, 138, 165, 0.5);
   box-shadow: 1.2em 0em 2em rgba(17, 17, 50, .25);
@@ -365,7 +365,7 @@ a[name='resume']:hover {
     width: 90%;
     left: 5%;
     top: 13em;
-    z-index: 20;
+    /* z-index: 20; */
   }
 
   .contact-div, .resume-div {
@@ -421,7 +421,7 @@ a[name='resume']:hover {
   .found {
     padding-left: 2em;
     padding-right: 2em;
-    z-index: 20;
+    /* z-index: 20; */
   }
 
   .project-links {
