@@ -385,7 +385,10 @@ a[name='resume']:hover {
   } */
   .tech {
     text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
   }
+  
   .links {
     flex-direction: row;
   }
