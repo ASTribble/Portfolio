@@ -201,17 +201,19 @@ img {
 }
 
 .link {
-  color:#EBAC5C;
+  /* color:#EBAC5C; */
+  color: #ECF8F1;
   text-decoration: none;
+  justify-content: flex-start;
 }
 
-.link:visited {
+/* .link:visited {
   color: #C87B5B;
-}
+} */
 
-.link:hover {
+/* .link:hover {
   color:#FFDE32;
-}
+} */
 
 .project-title{
   color: #FFDE32;
@@ -254,12 +256,12 @@ img {
   flex-direction: column;
 }
 
-.project-links p {
+.links {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: .2em;
+  flex-direction: column;
+  margin-top: 0;
 }
+
 
 .repos {
   display: flex;
@@ -381,6 +383,16 @@ a[name='resume']:hover {
   width: 100%;
   font-size: .8em;
   } */
+  .tech {
+    text-align: center;
+  }
+  .links {
+    flex-direction: row;
+  }
+
+  .link {
+    justify-content: center;
+  }
 }
 
 
@@ -425,11 +437,11 @@ a[name='resume']:hover {
     /* z-index: 20; */
   }
 
-  .project-links {
+  /* .project-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-  }
+  } */
 
   .github-repos a:first-child {
     margin-right: 2em;
