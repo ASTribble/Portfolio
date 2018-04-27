@@ -444,7 +444,7 @@ a[name='resume']:hover {
     flex-direction: row;
     flex-wrap: wrap;
   }
-}
+
 
 
 /* ==== MEDIA at 860px ========================= */
@@ -466,6 +466,12 @@ a[name='resume']:hover {
       radial-gradient(circle farthest-corner at right 175%,#111138 64%, #00B7C2 0, transparent),        
       radial-gradient(circle farthest-corner at left -70%, #111132 61%, #00B7C2 0%)
   }
+
+  .contact-div {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  
 }
 
 
