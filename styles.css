@@ -15,7 +15,8 @@ page {
 
   color: #ECF8F1;
   text-align: center;
-  font-family: 'Libre', sans-serif;
+
+  font-family: 'Roboto', sans-serif;
 
   background-color: #00B7C2;
   background-image: radial-gradient(circle farthest-corner at left,
@@ -43,9 +44,8 @@ h3 {
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.7em;
-  align-self: center;
+  font-size: 1em;
+  margin-bottom: .25em;
 }
 
 header {
@@ -201,17 +201,19 @@ img {
 }
 
 .link {
-  color:#EBAC5C;
+  /* color:#EBAC5C; */
+  color: #ECF8F1;
   text-decoration: none;
+  justify-content: flex-start;
 }
 
-.link:visited {
+/* .link:visited {
   color: #C87B5B;
-}
+} */
 
-.link:hover {
+/* .link:hover {
   color:#FFDE32;
-}
+} */
 
 .project-title{
   color: #FFDE32;
@@ -244,17 +246,22 @@ img {
   padding-left: 1em;
 } */
 
+.tech {
+  align-self: center;
+  margin-top: 0;
+}
+
 .project-links {
   display: flex;
   flex-direction: column;
 }
 
-.project-links p {
+.links {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: .2em;
+  flex-direction: column;
+  margin-top: 0;
 }
+
 
 .repos {
   display: flex;
@@ -276,6 +283,7 @@ a[name]{
   background-color: #ECF8F1;
 
   color:  rgb(38, 96, 110);
+  font-family: 'Libre', sans-serif;
   font-weight: bold;
 
   box-shadow: 1.2em -.2em 1em rgba(38, 96, 110, .5);
@@ -351,11 +359,6 @@ a[name='resume']:hover {
 
 @media (min-width: 640px){
 
-  h4 {
-    align-self: flex-start;
-    font-size: 2em;
-  }
-
   img {
     border: solid 18px #ECF8F1;
     border-radius: 2px;
@@ -380,6 +383,19 @@ a[name='resume']:hover {
   width: 100%;
   font-size: .8em;
   } */
+  .tech {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+  .links {
+    flex-direction: row;
+  }
+
+  .link {
+    justify-content: center;
+  }
 }
 
 
@@ -424,11 +440,11 @@ a[name='resume']:hover {
     /* z-index: 20; */
   }
 
-  .project-links {
+  /* .project-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-  }
+  } */
 
   .github-repos a:first-child {
     margin-right: 2em;
