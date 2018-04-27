@@ -44,9 +44,8 @@ h3 {
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.7em;
-  align-self: center;
+  font-size: 1em;
+  margin-bottom: .25em;
 }
 
 header {
@@ -245,6 +244,11 @@ img {
   padding-left: 1em;
 } */
 
+.tech {
+  align-self: center;
+  margin-top: 0;
+}
+
 .project-links {
   display: flex;
   flex-direction: column;
@@ -352,11 +356,6 @@ a[name='resume']:hover {
 /* ==== MEDIA AT 640px ======================= */
 
 @media (min-width: 640px){
-
-  h4 {
-    align-self: flex-start;
-    font-size: 2em;
-  }
 
   img {
     border: solid 18px #ECF8F1;
