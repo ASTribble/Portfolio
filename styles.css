@@ -444,8 +444,7 @@ a[name='resume']:hover {
     flex-direction: row;
     flex-wrap: wrap;
   }
-
-
+}
 
 /* ==== MEDIA at 860px ========================= */
 
@@ -471,7 +470,7 @@ a[name='resume']:hover {
     padding-left: 5em;
     padding-right: 5em;
   }
-  
+
 }
 
 
